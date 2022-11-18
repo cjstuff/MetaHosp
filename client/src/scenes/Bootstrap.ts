@@ -77,6 +77,11 @@ export default class Bootstrap extends Phaser.Scene {
       frameHeight: 48,
     })
 
+    this.load.spritesheet('doctor', 'assets/character/doctor.png', {
+      frameWidth: 32,
+      frameHeight: 48,
+    })
+
     this.load.on('complete', () => {
       this.preloadComplete = true
       this.launchBackground(store.getState().user.backgroundMode)

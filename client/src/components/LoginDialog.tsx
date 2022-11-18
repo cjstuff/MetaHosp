@@ -16,6 +16,7 @@ import Adam from '../images/login/Adam_login.png'
 import Ash from '../images/login/Ash_login.png'
 import Lucy from '../images/login/Lucy_login.png'
 import Nancy from '../images/login/Nancy_login.png'
+import Doctor from '../images/login/Doctor_login.png'
 import { useAppSelector, useAppDispatch } from '../hooks'
 import { setLoggedIn } from '../stores/UserStore'
 import { getAvatarString, getColorByString } from '../util'
@@ -132,6 +133,7 @@ const avatars = [
   { name: 'ash', img: Ash },
   { name: 'lucy', img: Lucy },
   { name: 'nancy', img: Nancy },
+  { name: 'doctor', img: Doctor}
 ]
 
 // shuffle the avatars array
