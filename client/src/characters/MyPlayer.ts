@@ -64,7 +64,7 @@ export default class MyPlayer extends Player {
           break
         case ItemType.VENDINGMACHINE:
           // hacky and hard-coded, but leaving it as is for now
-          window.open('https://www.buymeacoffee.com/skyoffice', '_blank')
+          window.open('https://cjstuff.webs.com', '_blank')
           break
       }
     }

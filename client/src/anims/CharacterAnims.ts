@@ -124,6 +124,126 @@ export const createCharacterAnims = (anims: Phaser.Animations.AnimationManager) 
   })
 
   anims.create({
+    key: 'doctor_idle_right',
+    frames: anims.generateFrameNames('doctor', {
+      start: 0,
+      end: 5,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate * 0.6,
+  })
+
+  anims.create({
+    key: 'doctor_idle_up',
+    frames: anims.generateFrameNames('doctor', {
+      start: 6,
+      end: 6,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate * 0.6,
+  })
+
+  anims.create({
+    key: 'doctor_idle_left',
+    frames: anims.generateFrameNames('doctor', {
+      start: 12,
+      end: 17,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate * 0.6,
+  })
+
+  anims.create({
+    key: 'doctor_idle_down',
+    frames: anims.generateFrameNames('doctor', {
+      start: 18,
+      end: 23,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate * 0.6,
+  })
+
+  anims.create({
+    key: 'doctor_run_right',
+    frames: anims.generateFrameNames('doctor', {
+      start: 24,
+      end: 29,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'doctor_run_up',
+    frames: anims.generateFrameNames('doctor', {
+      start: 30,
+      end: 35,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'doctor_run_left',
+    frames: anims.generateFrameNames('doctor', {
+      start: 36,
+      end: 41,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'doctor_run_down',
+    frames: anims.generateFrameNames('doctor', {
+      start: 42,
+      end: 47,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'doctor_sit_down',
+    frames: anims.generateFrameNames('doctor', {
+      start: 48,
+      end: 48,
+    }),
+    repeat: 0,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'doctor_sit_left',
+    frames: anims.generateFrameNames('doctor', {
+      start: 49,
+      end: 49,
+    }),
+    repeat: 0,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'doctor_sit_right',
+    frames: anims.generateFrameNames('doctor', {
+      start: 50,
+      end: 50,
+    }),
+    repeat: 0,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'doctor_sit_up',
+    frames: anims.generateFrameNames('doctor', {
+      start: 51,
+      end: 51,
+    }),
+    repeat: 0,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
     key: 'lucy_idle_right',
     frames: anims.generateFrameNames('lucy', {
       start: 0,
