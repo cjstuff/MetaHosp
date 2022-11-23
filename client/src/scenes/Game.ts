@@ -135,6 +135,10 @@ export default class Game extends Phaser.Scene {
     this.addGroupFromTiled('GenericObjects', 'generic', 'Generic', false)
     this.addGroupFromTiled('GenericObjectsOnCollide', 'generic', 'Generic', true)
     this.addGroupFromTiled('Basement', 'basement', 'Basement', true)
+    this.addGroupFromTiled('ObjectsOnCollide', 'hospital', 'hospital', true)
+    this.addGroupFromTiled('GenericObjects', 'hospital', 'hospital', false)
+    this.addGroupFromTiled('Objects', 'hospital', 'hospital', false)
+    this.addGroupFromTiled('GenericObjectsOnCollide', 'hospital', 'hospital', true)
 
     this.otherPlayers = this.physics.add.group({ classType: OtherPlayer })
 
