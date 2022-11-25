@@ -157,7 +157,7 @@ export const createCharacterAnims = (anims: Phaser.Animations.AnimationManager) 
     key: 'doctor_idle_down',
     frames: anims.generateFrameNames('doctor', {
       start: 18,
-      end: 23,
+      end: 18,
     }),
     repeat: -1,
     frameRate: animsFrameRate * 0.6,
@@ -243,6 +243,127 @@ export const createCharacterAnims = (anims: Phaser.Animations.AnimationManager) 
     frameRate: animsFrameRate,
   })
 
+  anims.create({
+    key: 'nurse_idle_right',
+    frames: anims.generateFrameNames('nurse', {
+      start: 0,
+      end: 0,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate * 0.6,
+  })
+
+  anims.create({
+    key: 'nurse_idle_up',
+    frames: anims.generateFrameNames('nurse', {
+      start: 7,
+      end: 7,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate * 0.6,
+  })
+
+  anims.create({
+    key: 'nurse_idle_left',
+    frames: anims.generateFrameNames('nurse', {
+      start: 13,
+      end: 13,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate * 0.6,
+  })
+
+  anims.create({
+    key: 'nurse_idle_down',
+    frames: anims.generateFrameNames('nurse', {
+      start: 47,
+      end: 47,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate * 0.6,
+  })
+
+  anims.create({
+    key: 'nurse_run_right',
+    frames: anims.generateFrameNames('nurse', {
+      start: 24,
+      end: 29,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'nurse_run_up',
+    frames: anims.generateFrameNames('nurse', {
+      start: 30,
+      end: 35,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'nurse_run_left',
+    frames: anims.generateFrameNames('nurse', {
+      start: 36,
+      end: 41,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'nurse_run_down',
+    frames: anims.generateFrameNames('nurse', {
+      start: 42,
+      end: 47,
+    }),
+    repeat: -1,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'nurse_sit_down',
+    frames: anims.generateFrameNames('nurse', {
+      start: 48,
+      end: 48,
+    }),
+    repeat: 0,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'nurse_sit_left',
+    frames: anims.generateFrameNames('nurse', {
+      start: 49,
+      end: 49,
+    }),
+    repeat: 0,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'nurse_sit_right',
+    frames: anims.generateFrameNames('nurse', {
+      start: 50,
+      end: 50,
+    }),
+    repeat: 0,
+    frameRate: animsFrameRate,
+  })
+
+  anims.create({
+    key: 'nurse_sit_up',
+    frames: anims.generateFrameNames('nurse', {
+      start: 51,
+      end: 51,
+    }),
+    repeat: 0,
+    frameRate: animsFrameRate,
+  })
+
+  
   anims.create({
     key: 'lucy_idle_right',
     frames: anims.generateFrameNames('lucy', {
