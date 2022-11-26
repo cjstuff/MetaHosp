@@ -1,7 +1,7 @@
 {
-  "name": "skyoffice",
+  "name": "metahosp",
   "version": "1.0.0",
-  "description": "Server for SkyOffice",
+  "description": "Server for MetaHosp",
   "main": ".eslintrc.js",
   "scripts": {
     "start": "cd server && ts-node-dev --project tsconfig.server.json --respawn --transpile-only index.ts",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinshen56714/SkyOffice.git"
+    "url": "git+https://github.com/cjstuff/MetaHosp.git"
   },
   "keywords": [],
-  "author": "kevinshen56714",
+  "author": "cjstuff",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kevinshen56714/SkyOffice/issues"
+    "url": "https://github.com/cjstuff/MetaHosp/issues"
   },
-  "homepage": "https://github.com/kevinshen56714/SkyOffice#readme",
+  "homepage": "https://github.com/cjstuff/MetaHosp#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
