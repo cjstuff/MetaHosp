@@ -1,6 +1,7 @@
 # MetaHosp ![License](https://img.shields.io/badge/license-MIT-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
 
-<img alt="Logo" align="right" src="https://user-images.githubusercontent.com/11501902/139942585-a6b044ce-3695-460a-91bd-dd9f1d4611c8.png" width="20%" />
+<img alt="Logo" align="right" src="https://github.com/cjstuff/MetaHosp/blob/master/client/src/images/logo.png" width="20%" />
+
 
 An immersive virtual hospital - Study in Advanced Topics Project
 
