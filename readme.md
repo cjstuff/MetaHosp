@@ -1,15 +1,15 @@
-# SkyOffice ![License](https://img.shields.io/badge/license-MIT-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
+# MetaHosp ![License](https://img.shields.io/badge/license-MIT-blue) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
 
 <img alt="Logo" align="right" src="https://user-images.githubusercontent.com/11501902/139942585-a6b044ce-3695-460a-91bd-dd9f1d4611c8.png" width="20%" />
 
-An immersive virtual office - Winner of [2021 Monte Jade Innovation Competition](https://www.montejadese.org/innovation-competition)
+An immersive virtual hospital - Study in Advanced Topics Project
 
-- Come try it out - [Official Website](https://sky-office.co/)
-- Why we built this - [Concept Video](https://www.youtube.com/watch?v=BpDqGTPh8pc)
-- 🙌 Get latest updates? Follow our [Twitter](https://twitter.com/SkyOfficeApp).
-- 💕 Love this project? Consider [buy me a coffee](https://www.buymeacoffee.com/skyoffice).
+- Come try it out - [Official Website](https://)
+- Why we built this - [Concept Video](https://www.youtube.com/)
+- 🙌 Get latest updates? Follow our [Twitter](https://twitter.com/).
+- 💕 Love this project? Consider [buy me a coffee](https://www.buymeacoffee.com/).
 
-SkyOffice works on all PC browsers (mobile browsers are currently not supported)
+MetaHosp works on all PC browsers (mobile browsers are currently not supported)
 
 ## Built with
 
@@ -69,26 +69,26 @@ You'll need [Node.js](https://nodejs.org/en/), [npm](https://www.npmjs.com/) ins
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/kevinshen56714/SkyOffice.git
+git clone https://github.com/cjstuff/MetaHosp.git
 ```
 
-This will create a folder named `SkyOffice`. You can specify a different folder name like this:
+This will create a folder named `MetaHosp`. You can specify a different folder name like this:
 
 ```bash
-git clone https://github.com/kevinshen56714/SkyOffice.git my-folder-name
+git clone https://github.com/cjstuff/MetaHosp.git my-folder-name
 ```
 
 To start a server, go into the project folder and install dependencies/run start command:
 
 ```bash
-cd SkyOffice or 'my-folder-name'
+cd MetaHosp or 'my-folder-name'
 yarn && yarn start
 ```
 
 To start a client, go into the client folder and install dependencies/run start command:
 
 ```bash
-cd SkyOffice/client or 'my-folder-name/client'
+cd MetaHosp/client or 'my-folder-name/client'
 yarn && yarn dev
 ```
 
@@ -104,4 +104,4 @@ Big thanks to open-source whiteboard project - [WBO](https://github.com/lovasoa/
 
 This project is licensed under MIT.
 
-If you're using SkyOffice to power your virtual office or using our code in other projects, please consider [buy me a coffee](https://www.buymeacoffee.com/skyoffice). Thank you :)
+If you're using MetaHosp to power your virtual hospital or using our code in other projects, please consider [buy me a coffee](https://www.buymeacoffee.com/). Thank you :)
