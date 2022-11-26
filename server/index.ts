@@ -12,9 +12,15 @@ import { SkyOffice } from './rooms/SkyOffice'
 const port = Number(process.env.PORT || 2567)
 const app = express()
 
+var path = require('path')
+
 app.use(cors())
 app.use(express.json())
 app.use(express.static('dist'))
+
+app.get('*', (_req, res) => {
+  res.sendFile(path.join(__dirname, 'dist/index.html'))
+});
 
 const server = http.createServer(app)
 const gameServer = new Server({
