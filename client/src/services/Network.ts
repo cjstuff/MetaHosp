@@ -33,7 +33,7 @@ export default class Network {
     const protocol = window.location.protocol.replace('http', 'ws')
     const endpoint =
       process.env.NODE_ENV === 'production'
-        ? `wss://metahosp-app.herokuapp.com/`
+        ? `wss://metahosp.onrender.com/`
         : `${protocol}//${window.location.hostname}:2567`
     this.client = new Client(endpoint)
     this.joinLobbyRoom().then(() => {
