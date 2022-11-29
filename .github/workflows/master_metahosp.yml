@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'metahosp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F4BCF910D7594ADE87E704A07285B0DB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E8865C7799114B63BC311B0DA97EBE8D }}
           package: .
