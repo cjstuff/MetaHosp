@@ -4,7 +4,8 @@
   "description": "Server for MetaHosp",
   "main": ".eslintrc.js",
   "scripts": {
-    "start": "cd server && ts-node-dev --project tsconfig.server.json --respawn --transpile-only index.ts"
+    "start": "cd server && ts-node-dev --project tsconfig.server.json --respawn --transpile-only index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
