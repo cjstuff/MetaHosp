@@ -14,7 +14,7 @@ const app = express()
 
 app.use(cors())
 app.use(express.json())
-app.use(express.static('client/dist'))
+//app.use(express.static('client/dist'))
 
 if (process.env.NODE_ENV === 'production') {
   // Exprees will serve up production assets
