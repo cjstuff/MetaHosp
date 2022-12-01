@@ -1,6 +1,6 @@
 import http from 'http'
 import express from 'express'
-import cors from 'cors'
+//import cors from 'cors'
 import { Server, LobbyRoom } from 'colyseus'
 import { monitor } from '@colyseus/monitor'
 import { RoomType } from '../types/Rooms'
@@ -12,7 +12,16 @@ import { SkyOffice } from './rooms/SkyOffice'
 const port = Number(process.env.PORT || 2567)
 const app = express()
 
-app.use(cors())
+//app.use(cors())
+
+const cors = require('cors');
+const corsOptions ={
+    origin:'http://localhost:3000', 
+    credentials:true,            //access-control-allow-credentials:true
+    optionSuccessStatus:200
+}
+app.use(cors(corsOptions));
+
 app.use(express.json())
 //app.use(express.static('client/dist'))
 
