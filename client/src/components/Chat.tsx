@@ -7,6 +7,7 @@ import IconButton from '@mui/material/IconButton'
 import InputBase from '@mui/material/InputBase'
 import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon'
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline'
+import PrescriptionIcon from '@mui/icons-material/Note'
 import CloseIcon from '@mui/icons-material/Close'
 import 'emoji-mart/css/emoji-mart.css'
 import { Picker } from 'emoji-mart'
@@ -38,6 +39,9 @@ const Wrapper = styled.div`
 
 const FabWrapper = styled.div`
   margin-top: auto;
+  .pres {
+    margin: 7px;
+  }
 `
 
 const ChatHeader = styled.div`
@@ -58,6 +62,7 @@ const ChatHeader = styled.div`
     top: 0;
     right: 0;
   }
+
 `
 
 const ChatBox = styled(Box)`
@@ -293,6 +298,18 @@ export default function Chat() {
               }}
             >
               <ChatBubbleOutlineIcon />
+            </Fab>
+            <Fab
+              color="secondary"
+              className="pres"
+              aria-label="showPrescription"
+              onClick={() => {
+                //dispatch(setShowChat(true))
+                //dispatch(setFocused(true))
+                parent.open('http://localhost:3000/patients_reg')
+              }}
+            >
+              <PrescriptionIcon />
             </Fab>
           </FabWrapper>
         )}

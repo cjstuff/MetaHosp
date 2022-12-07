@@ -2,9 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 import IconButton from '@mui/material/IconButton'
 import CloseIcon from '@mui/icons-material/Close'
+import SaveIcon from '@mui/icons-material/Save'
 
 import { useAppSelector, useAppDispatch } from '../hooks'
 import { closeWhiteboardDialog } from '../stores/WhiteboardStore'
+import { saveWhiteboardDialog } from '../stores/WhiteboardStore'
 
 const Backdrop = styled.div`
   position: fixed;
@@ -29,6 +31,12 @@ const Wrapper = styled.div`
   .close {
     position: absolute;
     top: 16px;
+    right: 16px;
+  }
+
+  .save {
+    position: absolute;
+    top: 64px;
     right: 16px;
   }
 `
@@ -59,6 +67,16 @@ export default function WhiteboardDialog() {
           onClick={() => dispatch(closeWhiteboardDialog())}
         >
           <CloseIcon />
+        </IconButton>
+        <IconButton
+          aria-label="save prescription"
+          className="save"
+          onClick={() => {
+            //dispatch(saveWhiteboardDialog())
+            parent.open('http://localhost:3000/')
+          }}
+        >
+          <SaveIcon />
         </IconButton>
         {whiteboardUrl && (
           <WhiteboardWrapper>

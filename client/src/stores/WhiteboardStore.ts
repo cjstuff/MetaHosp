@@ -37,6 +37,14 @@ export const whiteboardSlice = createSlice({
       state.whiteboardId = null
       state.whiteboardUrl = null
     },
+    saveWhiteboardDialog: (state) => {
+      const game = phaserGame.scene.keys.game as Game
+      game.enableKeys()
+      game.network.disconnectFromWhiteboard(state.whiteboardId!)
+      state.whiteboardDialogOpen = false
+      state.whiteboardId = null
+      state.whiteboardUrl = null
+    },
     setWhiteboardUrls: (state, action: PayloadAction<{ whiteboardId: string; roomId: string }>) => {
       state.urls.set(
         action.payload.whiteboardId,
@@ -46,7 +54,7 @@ export const whiteboardSlice = createSlice({
   },
 })
 
-export const { openWhiteboardDialog, closeWhiteboardDialog, setWhiteboardUrls } =
+export const { openWhiteboardDialog, closeWhiteboardDialog, saveWhiteboardDialog, setWhiteboardUrls } =
   whiteboardSlice.actions
 
 export default whiteboardSlice.reducer
