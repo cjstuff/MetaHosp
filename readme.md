@@ -23,7 +23,6 @@ MetaHosp works on all PC browsers (mobile browsers are currently not supported)
 ## Features
 
 - [Proximity Chat](#proximity-chat-distance-based-interactive-system)
-- [Flexible Screen Sharing](#flexible--immediate-screen-sharing)
 - [Multifunctional Rooms](#multifunctional-rooms)
 - [Text Message Chat](#text-message-chat-with-real-time-dialog-bubbles)
 - [Custom/Private Rooms](#customprivate-rooms)
@@ -31,27 +30,23 @@ MetaHosp works on all PC browsers (mobile browsers are currently not supported)
 
 ### Proximity Chat (distance-based interactive system)
 
-![image](https://user-images.githubusercontent.com/11501902/139960852-cf0e0883-8fbe-459d-bb11-3707d0ae1360.png)
+![image](https://github.com/cjstuff/MetaHosp/blob/master/snapshots/proximity_chat.png)
 
 ### Multifunctional Rooms
 
-![image](https://user-images.githubusercontent.com/11501902/139961091-1801bd4d-fbd6-4400-8503-85ece744e979.png)
-
-### Flexible & Immediate Screen Sharing
-
-![image](https://user-images.githubusercontent.com/11501902/139961155-44a85cd9-ac25-4563-9d82-6537ed7435f6.png)
+![image](https://github.com/cjstuff/MetaHosp/blob/master/snapshots/Doctor's_%20Room.png)
 
 ### Text Message Chat (with real time dialog bubbles)
 
-![image](https://user-images.githubusercontent.com/11501902/145925423-3b5b9026-d3b9-429d-920b-98b0bcd6300a.png)
+![image](https://github.com/cjstuff/MetaHosp/blob/master/snapshots/Real-time_chat.png)
 
 ### Embedded Whiteboards
 
-![image](https://user-images.githubusercontent.com/11501902/147785323-19dbf0e6-056d-44c5-8efe-e969297bbe52.png)
+![image](https://github.com/cjstuff/MetaHosp/blob/master/snapshots/WhiteBoard.png)
 
 ### Custom/Private Rooms
 
-![image](https://user-images.githubusercontent.com/11501902/147784118-15ef50bf-0f67-4704-89d7-81b2fa7f8ceb.png)
+![image](https://github.com/cjstuff/MetaHosp/blob/master/snapshots/custom_2.png)
 
 ## Controls
 
